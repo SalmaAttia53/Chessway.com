@@ -1,0 +1,218 @@
+/*
+General Page Style
+*/
+
+html, body {
+  height: 100%;
+  width:100%;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.no-padding {
+  padding: 0px;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Merriweather', 'Helvetica Neue', 'Arial','sans-serif';
+}
+
+h1, h2,  h4, h5, h6 {
+  font-weight: 500;
+  line-height: 1.1;
+  margin-bottom: 15px;
+  border-top: 4px solid #F05F40
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-weight: 500;
+  line height: 1.1;
+  margin-bottom: 15px;
+  font-size: 40px;
+}
+
+p{
+  font-size: 20px;
+  line-height: 1.5;
+  margin-left: 0px;
+  margin-right: 15px;
+  margin-top: 0px
+  ;margin-bottom: 10px;
+  text-decoration-color: #000000
+}
+hr {
+  max-width: 200px;
+  height: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-top: 4px solid #000000;
+}
+
+hr.light {
+  border-color: #fff;
+}
+section {
+  padding-top: : 100px;
+  padding-right: 150px;
+  padding-bottom: 0px;
+}
+.section-body {
+  padding-right: 40px;
+  padding-left: 15px;
+}
+.container {
+  width: 75%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+}
+
+.btn {
+  padding: 15px 30px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  border: none;
+  border-radius: 300px;
+  vertical-align: middle;
+  line-height: 1.4;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff
+  ;background-color:#F05F40
+  ;display: inline-block;
+
+}
+.btn-light{
+  color: #000;
+  background-color: #fff;
+}
+
+
+
+
+}
+.text-faded {
+  color: rgba(255,255,255,0)
+}
+
+/*
+Navigation Bar
+*/
+
+.navbar {
+  border: 0px;
+  background-color:#000;
+  opacity: 0.7;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  z-index: 1030;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.navbar-header {
+  float: left;
+}
+.navbar-header>a {
+  color: rgb(109,105,104);
+  line-height: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px;
+}
+
+
+
+.navbar-list {
+  float: right;
+}
+
+.navbar-list {
+  float: right;
+  list-style: none;
+
+}
+.navbar-list>li {
+  float: left;
+}
+.navbar-list>li>a {
+  color: #D5D8DC;
+  line-height: 20px;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px;
+  float: left;
+}
+
+/*
+About Us section
+*/
+.bg-primary {
+  ;background-color: #F05F40;
+  color: #fff;
+}
+.imgS.A{
+  width:300px;
+  height:200px;
+  background-image: url(../img/S.A website.jpeg);
+  background-size: 100px;
+}
+/*
+header
+*/
+
+header {
+  min-height: 100%;
+  color: #fff;
+  background-image: url("./img/chess.jpeg");
+  ;background-image: center center ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header-content {
+  position: absolute;
+  top: 25%;
+  padding: 0 50px;
+}
+
+header, header .header-content{
+  width: 100%;
+}
+
+.header-content-inner {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-content-inner h2 {
+  font-size: 50px;
+}
+.header-content-inner hr {
+  margin: 30px auto;
+}
+
+.header-content-inner p {
+  max-width: 80%;
+  padding: 10px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 24px;
+  font-weight: 300;
+  color: rgba(255,255,255,1);
+  background: rgba(46,110,1)
+}
